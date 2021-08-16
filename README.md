@@ -10,7 +10,7 @@
 
 ## Модуль 11. Системы хранения и передачи данных
 
-11.1. [Базы данных, их типы](https://github.com/netology-code/sdb-homeworks/blob/main/sys-11.1-hw.md)
+11.1. [Базы данных, их типы](https://github.com/netology-code/sdb-homeworks/blob/main/11-01.md)
 
 11.2. [Кеширование Redis/memcached]()
 
