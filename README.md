@@ -25,7 +25,7 @@
 
 12.2. [Работа с данными (DDL/DML)]()
 
-12.3. [SQL. Часть 1]()
+12.3. [SQL. Часть 1](https://github.com/netology-code/sdb-homeworks/blob/main/12-03.md)
 
 12.4. [SQL. Часть 2]()
 
