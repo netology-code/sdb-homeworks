@@ -23,7 +23,7 @@
 
 12.1. [Базы данных](https://github.com/netology-code/sdb-homeworks/blob/main/12-01.md)
 
-12.2. [Работа с данными (DDL/DML)]()
+12.2. [Работа с данными (DDL/DML)](https://github.com/netology-code/sdb-homeworks/blob/main/12-02.md)
 
 12.3. [SQL. Часть 1](https://github.com/netology-code/sdb-homeworks/blob/main/12-03.md)
 
@@ -41,3 +41,12 @@
 
 
 ## Модуль 13. Информационная безопасность
+
+13.1. [Модель угроз]()
+
+13.2. [Основные инструменты информационной безопасности)]()
+
+13.3. [Уязвимости, атаки и их устранение]()
+
+13.4. [Best practices современной информационной безопасности]()
+
