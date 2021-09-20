@@ -31,7 +31,7 @@
 
 12.5. [Индексы](https://github.com/netology-code/sdb-homeworks/blob/main/12-05.md)
 
-12.6. [Репликация и масштабирование. Часть 1]()
+12.6. [Репликация и масштабирование. Часть 1](https://github.com/netology-code/sdb-homeworks/blob/main/12-06.md)
 
 12.7. [Репликация и масштабирование. Часть 2]()
 
