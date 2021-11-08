@@ -42,11 +42,11 @@
 
 ## Модуль 13. Информационная безопасность
 
-13.1. [Модель угроз](https://github.com/netology-code/sdb-homeworks/blob/main/13-01.md)
+13.1. [Уязвимости и атаки на информационные системы]()
 
-13.2. [Основные инструменты информационной безопасности)](https://github.com/netology-code/sdb-homeworks/blob/main/13-02.md)
+13.2. [Защита хоста)]()
 
-13.3. [Уязвимости, атаки и их устранение](https://github.com/netology-code/sdb-homeworks/blob/main/13-03.md)
+13.3. [Защита сети]()
 
 13.4. [Best practices современной информационной безопасности]()
 
