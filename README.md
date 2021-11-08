@@ -42,9 +42,9 @@
 
 ## Модуль 13. Информационная безопасность
 
-13.1. [Модель угроз]()
+13.1. [Модель угроз](https://github.com/netology-code/sdb-homeworks/blob/main/13-01.md)
 
-13.2. [Основные инструменты информационной безопасности)]()
+13.2. [Основные инструменты информационной безопасности)](https://github.com/netology-code/sdb-homeworks/blob/main/13-02.md)
 
 13.3. [Уязвимости, атаки и их устранение](https://github.com/netology-code/sdb-homeworks/blob/main/13-03.md)
 
