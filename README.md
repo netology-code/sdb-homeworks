@@ -31,13 +31,11 @@
 
 5. [Индексы](https://github.com/netology-code/sdb-homeworks/blob/sdbsql-22/12-05.md).
 
-6. [Репликация и масштабирование. Часть 1](https://github.com/netology-code/sdb-homeworks/blob/sdbsql-22/12-06.md).
+6. [Репликация и масштабирование](https://github.com/netology-code/sdb-homeworks/blob/sdbsql-22/12-06.md).
 
-7. [Репликация и масштабирование. Часть 2](https://github.com/netology-code/sdb-homeworks/blob/sdbsql-22/12-07.md).
+7. [Резервное копирование](https://github.com/netology-code/sdb-homeworks/blob/sdbsql-22/12-08.md).
 
-8. [Резервное копирование](https://github.com/netology-code/sdb-homeworks/blob/sdbsql-22/12-08.md).
-
-9. [Базы данных в облаке](https://github.com/netology-code/sdb-homeworks/blob/sdbsql-22/12-09.md).
+8. [Базы данных в облаке](https://github.com/netology-code/sdb-homeworks/blob/sdbsql-22/12-09.md).
 
 
 ## Модуль «Информационная безопасность»
