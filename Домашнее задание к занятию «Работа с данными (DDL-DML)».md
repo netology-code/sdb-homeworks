@@ -44,6 +44,12 @@ ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass
 
 *Результатом работы должны быть скриншоты обозначенных заданий, а также простыня со всеми запросами.*
 
+![img](https://github.com/KaifasKainChaos/sdb-homeworks/blob/1496d3c36ee9e916ed7d07afaf059ae5da19720c/12-02/8.png)
+![img](https://github.com/KaifasKainChaos/sdb-homeworks/blob/1496d3c36ee9e916ed7d07afaf059ae5da19720c/12-02/2.png)
+![img](https://github.com/KaifasKainChaos/sdb-homeworks/blob/1496d3c36ee9e916ed7d07afaf059ae5da19720c/12-02/3.png)
+![img](https://github.com/KaifasKainChaos/sdb-homeworks/blob/1496d3c36ee9e916ed7d07afaf059ae5da19720c/12-02/4.png)
+![img](https://github.com/KaifasKainChaos/sdb-homeworks/blob/1496d3c36ee9e916ed7d07afaf059ae5da19720c/12-02/5.png)
+![img](https://github.com/KaifasKainChaos/sdb-homeworks/blob/1496d3c36ee9e916ed7d07afaf059ae5da19720c/12-02/6.png)
 
 ### Задание 2
 Составьте таблицу, используя любой текстовый редактор или Excel, в которой должно быть два столбца: в первом должны быть названия таблиц восстановленной базы, во втором названия первичных ключей этих таблиц. Пример: (скриншот/текст)
@@ -51,7 +57,7 @@ ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass
 Название таблицы | Название первичного ключа
 customer         | customer_id
 ```
-
+![img](https://github.com/KaifasKainChaos/sdb-homeworks/blob/1496d3c36ee9e916ed7d07afaf059ae5da19720c/12-02/7.png)
 
 ## Дополнительные задания (со звёздочкой*)
 Эти задания дополнительные, то есть не обязательные к выполнению, и никак не повлияют на получение вами зачёта по этому домашнему заданию. Вы можете их выполнить, если хотите глубже шире разобраться в материале.
