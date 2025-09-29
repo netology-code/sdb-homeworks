@@ -35,6 +35,7 @@ JOIN address a ON s.address_id = a.address_id
 GROUP BY c.store_id 
 HAVING COUNT(c.store_id) > 300;
 ```
+![1](https://github.com/KaifasKainChaos/sdb-homeworks/blob/e26cabd2e8b7b4471a0504477d2f0a2338267c96/12-04/1.png)
 
 ### Задание 2
 
@@ -44,6 +45,7 @@ SELECT (SELECT  AVG(`length`) from film) AS Average, (SELECT COUNT(1) from film)
 FROM film 
 WHERE `length` > (SELECT AVG(`length`) from film) ;
 ```
+![2](https://github.com/KaifasKainChaos/sdb-homeworks/blob/e26cabd2e8b7b4471a0504477d2f0a2338267c96/12-04/2.png)
 
 ### Задание 3
 
@@ -54,6 +56,7 @@ FROM payment
 GROUP BY MONTH(payment_date) 
 ORDER BY COUNT(payment_id)  DESC LIMIT 1 ;
 ```
+![3](https://github.com/KaifasKainChaos/sdb-homeworks/blob/e26cabd2e8b7b4471a0504477d2f0a2338267c96/12-04/3.png)
 
 
 ## Дополнительные задания (со звёздочкой*)
