@@ -1,21 +1,5 @@
 # Домашнее задание к занятию  «Очереди RabbitMQ»
 
-### Инструкция по выполнению домашнего задания
-
-1. Сделайте fork [репозитория c шаблоном решения](https://github.com/netology-code/sys-pattern-homework) к себе в Github и переименуйте его по названию или номеру занятия, например, https://github.com/имя-вашего-репозитория/gitlab-hw или https://github.com/имя-вашего-репозитория/8-03-hw).
-2. Выполните клонирование этого репозитория к себе на ПК с помощью команды `git clone`.
-3. Выполните домашнее задание и заполните у себя локально этот файл README.md:
-   - впишите вверху название занятия и ваши фамилию и имя;
-   - в каждом задании добавьте решение в требуемом виде: текст/код/скриншоты/ссылка;
-   - для корректного добавления скриншотов воспользуйтесь инструкцией [«Как вставить скриншот в шаблон с решением»](https://github.com/netology-code/sys-pattern-homework/blob/main/screen-instruction.md);
-   - при оформлении используйте возможности языка разметки md. Коротко об этом можно посмотреть в [инструкции по MarkDown](https://github.com/netology-code/sys-pattern-homework/blob/main/md-instruction.md).
-4. После завершения работы над домашним заданием сделайте коммит (`git commit -m "comment"`) и отправьте его на Github (`git push origin`).
-5. Для проверки домашнего задания преподавателем в личном кабинете прикрепите и отправьте ссылку на решение в виде md-файла в вашем Github.
-6. Любые вопросы задавайте в чате учебной группы и/или в разделе «Вопросы по заданию» в личном кабинете.
-
-Желаем успехов в выполнении домашнего задания.
-
----
 
 ### Задание 1. Установка RabbitMQ
 
@@ -23,6 +7,9 @@
 Добавьте management plug-in и зайдите в веб-интерфейс.
 
 *Итогом выполнения домашнего задания будет приложенный скриншот веб-интерфейса RabbitMQ.*
+
+![11-4-1.png](https://github.com/KaifasKainChaos/sdb-homeworks/blob/KaifasKainChaos-patch-1/screenshots/11-4-1.png)
+
 
 ---
 
@@ -45,8 +32,8 @@ $ pip install pika
 
 Для закрепления материала можете попробовать модифицировать скрипты, чтобы поменять название очереди и отправляемое сообщение.
 
----
-
+![11-4-2-1.png](https://github.com/KaifasKainChaos/sdb-homeworks/blob/KaifasKainChaos-patch-1/screenshots/11-4-2-1.png)
+![11-4-2-2-2.png](https://github.com/KaifasKainChaos/sdb-homeworks/blob/KaifasKainChaos-patch-1/screenshots/11-4-2-2-2.png)
 ### Задание 3. Подготовка HA кластера
 
 Используя Vagrant или VirtualBox, создайте вторую виртуальную машину и установите RabbitMQ.
@@ -66,19 +53,25 @@ $ cat /etc/hosts
 
 Также приложите вывод команды с двух нод:
 
-```shell script
+shell script
 $ rabbitmqctl cluster_status
-```
+
+![11-4-3-1.png](https://github.com/KaifasKainChaos/sdb-homeworks/blob/KaifasKainChaos-patch-1/screenshots/11-4-3-1.png)
+![11-4-3-2.png](https://github.com/KaifasKainChaos/sdb-homeworks/blob/KaifasKainChaos-patch-1/screenshots/11-4-3-2.png)
+![11-4-3-3.png](https://github.com/KaifasKainChaos/sdb-homeworks/blob/KaifasKainChaos-patch-1/screenshots/11-4-3-3.png)
 
 Для закрепления материала снова запустите скрипт producer.py и приложите скриншот выполнения команды на каждой из нод:
 
-```shell script
+shell script
 $ rabbitmqadmin get queue='hello'
-```
+
+![11-4-3-4.png](https://github.com/KaifasKainChaos/sdb-homeworks/blob/KaifasKainChaos-patch-1/screenshots/11-4-3-4.png)
+![11-4-3-5.png](https://github.com/KaifasKainChaos/sdb-homeworks/blob/KaifasKainChaos-patch-1/screenshots/11-4-3-5.png)
 
 После чего попробуйте отключить одну из нод, желательно ту, к которой подключались из скрипта, затем поправьте параметры подключения в скрипте consumer.py на вторую ноду и запустите его.
 
 *Приложите скриншот результата работы второго скрипта.*
+![11-4-3-6.png](https://github.com/KaifasKainChaos/sdb-homeworks/blob/KaifasKainChaos-patch-1/screenshots/11-4-3-6.png)
 
 
 ## Дополнительные задания (со звёздочкой*)
